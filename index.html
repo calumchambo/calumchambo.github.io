@@ -1,105 +1,387 @@
+<!-- 
+THEME: Small Apps | Bootstrap App Landing Template
+VERSION: 1.0.0
+AUTHOR: Themefisher
+
+HOMEPAGE: https://themefisher.com/products/small-apps-free-app-landing-page-template/
+DEMO: https://demo.themefisher.com/small-apps/
+GITHUB: https://github.com/themefisher/Small-Apps-Bootstrap-App-Landing-Template
+
+Get HUGO Version : https://themefisher.com/products/small-apps-hugo-app-landing-theme/
+
+WEBSITE: https://themefisher.com
+TWITTER: https://twitter.com/themefisher
+FACEBOOK: https://www.facebook.com/themefisher
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Coming Soon - GenerationAI</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Small Apps | Bootstrap App Landing Template</title>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Bootstrap App Landing Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="Themefisher">
+	<meta name="generator" content="Themefisher Small Apps Template v1.0">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/new_favi.png" />
+
+	<!-- PLUGINS CSS STYLE -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+
+	<!-- CUSTOM CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <!-- Background Video-->
-    <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="assets/mp4/bg.mp4" type="video/mp4" />
-    </video>
-    <!-- Masthead-->
-    <div class="masthead">
-        <div class="masthead-content text-white">
-            <div class="container-fluid px-4 px-lg-0">
-                <h1 class="fst-italic lh-1 mb-4">GenerationAI Website is Coming Up Soon</h1>
-                <p class="mb-5">We're working hard to finish the development of this site. Sign up below to receive
-                    updates and to be notified when we launch!</p>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForms" data-sb-form-api-token="API_TOKEN" action="https://api.web3forms.com/submit"
-                    method="post">
-                    <!-- Email address input-->
-                    <div class="row input-group-newsletter">
-                        <div class="col"><input class="form-control" id="email" type="email" name="email"
-                                placeholder="Enter email address..." aria-label="Enter email address..."
-                                data-sb-validations="required,email" /></div>
-                        <input type="hidden" name="access_key" value="6b1b6333-ed30-4f06-a82b-277505a7667b">
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
-                        <div class="col-auto"><button class="btn btn-primary" type="submit">Notify Me!</button>
-                        </div>
-                    </div>
-                    <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
-                    <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div id="submitSuccessMessage">
-                        <div class="text-center mb-3 mt-2">
-                            <div id="result" class="fw-bolder"></div>
-                            <br />
-                            <!-- <a
-                                href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
 
-    <!-- Social Icons-->
-    <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-    <div class="social-icons">
-        <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-            <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-dark m-3" href="https://www.linkedin.com/company/generationaienterprises"><i class="fab fa-linkedin"></i></a>
-            <a class="btn btn-dark m-3" href="#!"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-    </div>
+	<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img class="logo-img" src="images/logo.png"
+					style="height: 25%;width: 25%;" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="ti-menu"></span>
+			</button>
 
-    <!-- contact form -->
-    <script src="https://web3forms.com/client/script.js" async defer></script>
+		</div>
+	</nav>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+	<!--====================================
+=            Hero Section            =
+=====================================-->
+	<section class="section gradient-banner">
+		<div class="shapes-container">
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+			<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+			<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+			<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+			<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+			<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+			<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+					<h1 class="text-white font-weight-bold mb-4">Integrating ChatGPT with your products</h1>
+					<p class="text-white mb-5">We use Generative AI to help you build better products</p>
+					<a href="https://calendly.com/generationaidemo" target="_blank" class="btn btn-main-md">Book a free
+						demo</a>
+				</div>
+				<div class="col-md-6 text-center order-1 order-md-2">
+					<img class="img-fluid" src="images/smartphone-with-a-brain-removebg-preview.png" alt="screenshot">
+					<!-- <img class="img-fluid" src="images/mobile.png" alt="screenshot"> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====  End of Hero Section  ====-->
+
+	<section class="section pt-0 position-relative pull-top">
+		<div class="container">
+			<div class="rounded shadow p-5 bg-white">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+						<i class="ti-paint-bucket text-primary h1"></i>
+						<h3 class="mt-4 text-capitalize h5 ">Analyze</h3>
+						<p class="regular text-muted">We assess how GenAI can impact your business</p>
+					</div>
+					<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+						<i class="ti-shine text-primary h1"></i>
+						<h3 class="mt-4 text-capitalize h5 ">Architect</h3>
+						<p class="regular text-muted">We design solutions that create impact
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
+						<i class="ti-thought text-primary h1"></i>
+						<h3 class="mt-4 text-capitalize h5 ">Accelerate</h3>
+						<p class="regular text-muted">We quickly transition from MVP to production</p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==================================
+=            Feature Grid            =
+===================================-->
+	<section class="feature section pt-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 ml-auto justify-content-center">
+					<!-- Feature Mockup -->
+					<div class="image-content" data-aos="fade-right">
+						<!-- <img class="img-fluid" src="images/feature/feature-new-01.jpg" alt="iphone"> -->
+						<img class="img-fluid" src="images/emp.jpeg" alt="iphone">
+					</div>
+				</div>
+				<div class="col-lg-6 mr-auto align-self-center">
+					<div class="feature-content">
+						<!-- Feature Title -->
+						<h2>Hire your first <a
+								href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">AI
+								employee</a></h2>
+						<!-- Feature Description -->
+						<p class="desc">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Build an AI marketer</li>
+							<li class="list-group-item">Build an E-Commerce Assistant</li>
+							<li class="list-group-item">Build your Customer Service Bot</li>
+							<li class="list-group-item">Build your AI Avatar</li>
+						</ul>
+						</p>
+					</div>
+					<!-- Testimonial Quote -->
+					<div class="testimonial">
+						<p>
+							"The pace of in artificial intelligence is incredibly fast....it's growing at a pace close
+							to
+							exponential"
+						</p>
+						<ul class="list-inline meta">
+							<li class="list-inline-item">
+								<img src="images/elon-croped.jpeg" alt="">
+							</li>
+							<li class="list-inline-item">Elon Muck</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="feature section pt-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 ml-auto align-self-center">
+					<div class="feature-content">
+						<!-- Feature Title -->
+						<h2>Train LLMs on your <a
+								href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Data
+							</a></h2>
+						<!-- Feature Description -->
+						<p>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Create personalised customer experiences</li>
+							<li class="list-group-item">Embed ChatGPT on any platform or product</li>
+							<li class="list-group-item">Privacy and Protection ensured</li>
+							<li class="list-group-item">GDPR compliant</li>
+						</ul>
+						</p>
+					</div>
+					<!-- Testimonial Quote -->
+					<div class="testimonial">
+						<p>
+							"Artificial intelligence would be the ultimate version of Google. The ultimate search engine
+							that would understand everything on the web."
+						</p>
+						<ul class="list-inline meta">
+							<li class="list-inline-item">
+								<img src="images/larry-page.jpeg" alt="">
+							</li>
+							<li class="list-inline-item">Larry Page</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 mr-auto justify-content-center">
+					<!-- Feature mockup -->
+					<div class="image-content" data-aos="fade-left">
+						<img class="img-fluid" src="images/train.jpeg" alt="ipad">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====  End of Feature Grid  ====-->
+
+	<!--==============================
+=            Services            =
+===============================-->
+	<section class="service section bg-gray">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h1>Generation AI, why us?</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-lg-6 align-self-center">
+					<!-- Feature Image -->
+					<div class="service-thumb left" data-aos="fade-right">
+						<img class="img-fluid" style="height: 120%; width: 120%;" src="images/team_colab.png"
+							alt="iphone-ipad">
+					</div>
+				</div>
+				<div class="col-lg-5 mr-auto align-self-center">
+					<div class="service-box">
+						<div class="row align-items-center">
+							<div class="col-md-6 col-xs-12">
+								<!-- Service 01 -->
+								<div class="service-item">
+									<!-- Icon -->
+									<i class="ti-bookmark"></i>
+									<!-- Heading -->
+									<h3>Experienced GenAI Team</h3>
+									<!-- Description -->
+									<p>Industry leading team of ML and GenAI engineers</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<!-- Service 01 -->
+								<div class="service-item">
+									<!-- Icon -->
+									<i class="ti-pulse"></i>
+									<!-- Heading -->
+									<h3>Continuous Developement</h3>
+									<!-- Description -->
+									<p>Agile development at core for accelerated deployments</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<!-- Service 01 -->
+								<div class="service-item">
+									<!-- Icon -->
+									<i class="ti-bar-chart"></i>
+									<!-- Heading -->
+									<h3>Increase Business Value</h3>
+									<!-- Description -->
+									<p>Create delightful customer experiences that deliver business outcomes</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<!-- Service 01 -->
+								<div class="service-item">
+									<!-- Icon -->
+									<i class="ti-panel"></i>
+									<!-- Heading -->
+									<h3>Seamless Intergration</h3>
+									<!-- Description -->
+									<p>Effortless Integration with your interfaces and applications</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====  End of Services  ====-->
+
+
+	<!--=================================
+=            Video Promo            =
+==================================-->
+
+	<!--====  End of Video Promo  ====-->
+
+	<!--=================================
+=            Testimonial            =
+==================================-->
+
+	<!--====  End of Testimonial  ====-->
+
+	<section class="call-to-action-app section bg-blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>Usher into the GenAI</h2>
+					<!-- <p>Download over 2 million humans .Get <a
+							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small
+							Apps</a> free forever!
+						<br>We say you won’t look back.
+					</p> -->
+					<ul class="list-inline">
+						<!-- <li class="list-inline-item">
+							<a href="" class="btn btn-rounded-icon">
+								<i class="ti-apple"></i>
+								Iphone
+							</a>
+						</li> -->
+						<!-- <li class="list-inline-item">
+							<a href="" class="btn btn-rounded-icon">
+								<i class="ti-android"></i>
+								Android
+							</a>
+						</li> -->
+						<li class="list-inline-item">
+							<a href="https://calendly.com/generationaidemo" target="_blank"
+								class="btn btn-rounded-icon">
+								<i class="ti-pulse"></i>
+								Book A Demo
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--============================
+=            Footer            =
+=============================-->
+	<footer>
+
+		<div class="text-center bg-dark py-4">
+			<small class="text-secondary">Copyright &copy;
+				<script>document.write(new Date().getFullYear())</script>. All rights reserved by <a
+					href="https://generationai.dev/">Generation AI</a>
+			</small class="text-secondary">
+		</div>
+
+		<div class="text-center bg-dark py-1">
+			<small>
+				<p>Stay connected with <a href="https://generationai.dev/">US</a></p>
+			</small class="text-secondary">
+		</div>
+	</footer>
+
+
+	<!-- To Top -->
+	<div class="scroll-top-to">
+		<i class="ti-angle-up"></i>
+	</div>
+
+	<!-- JAVASCRIPTS -->
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/aos/aos.js"></script>
+	<!-- google map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g"></script>
+	<script src="plugins/google-map/gmap.js"></script>
+
+	<script src="js/script.js"></script>
 </body>
 
 </html>
